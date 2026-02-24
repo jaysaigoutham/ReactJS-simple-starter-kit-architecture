@@ -8,10 +8,12 @@
     "build": "vite build",
     "lint": "eslint .",
     "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
     "preview": "vite preview",
     "server": "json-server -p 3001 db.json"
   },
   "dependencies": {
+    "@vitest/coverage-v8": "^4.0.18",
     "axios": "^1.13.4",
     "json-server": "^0.17.4",
     "react": "^19.2.0",
@@ -21,6 +23,7 @@
     "@eslint/js": "^9.39.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",
