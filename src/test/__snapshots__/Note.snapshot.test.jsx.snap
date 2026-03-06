@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders Note component - snapshot 1`] = `
+<div>
+  <li
+    class="note"
+  >
+    Component testing is done with react-testing-library
+    <button>
+      make not important
+    </button>
+  </li>
+</div>
+`;
+
+exports[`renders Note component with important false - snapshot 1`] = `
+<div>
+  <li
+    class="note"
+  >
+    This is not important
+    <button>
+      make important
+    </button>
+  </li>
+</div>
+`;
